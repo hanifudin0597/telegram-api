@@ -37,7 +37,7 @@ module.exports = {
     }),
     updateById: (id, body) => new Promise((resolve, reject) => {
         const { username, phone, bio } = body
-        console.log(username, phone, bio, id)
+        // console.log(username, phone, bio, id)
         db.query(
             `UPDATE users SET username=$1, phone=$2, bio=$3 WHERE id=$4`, [username, phone, bio, id],
             (error, result) => {

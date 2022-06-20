@@ -1,4 +1,4 @@
-const { store, list } = require('../models/chat.model')
+const { store, list, deleteChat } = require('../models/chat.model')
 
 module.exports = (io, socket) => {
     socket.on('ping', (data) => {
@@ -23,5 +23,18 @@ module.exports = (io, socket) => {
     socket.on('chat-history', async (data) => {
         const listChat = await list(data.sender, data.receiver)
         io.to(data.sender).emit("send-message-response", listChat.rows)
+    })
+    socket.on('delete-message', async (data) => {
+        const { sender, receiver, chatId } = data;
+        
+        deleteChat(chatId)
+            .then(async () => {
+                const listChat = await list(sender, receiver)
+                io.to(receiver).emit('send-message-response', listChat.rows);
+                io.to(receiver).emit('send-message-response', listChat.rows);
+            })
+            .catch((err) => {
+                console.log(err)
+            })
     })
 }
