@@ -45,7 +45,7 @@ This api is for telegram client application, one of which is to handle realtime 
 - [Node.js](https://nodejs.org/en/)
 - [Express.js](https://expressjs.com/)
 - [JSON Web Tokens](https://jwt.io/)
--[Socket.io](https://socket.io/)
+- [Socket.io](https://socket.io/)
 - and other
 
 <!-- GETTING STARTED -->
