@@ -76,7 +76,7 @@ cd telegram-api
 ```
 npm install
 ```
-- Make a new database and import [hirejob.sql](https://drive.google.com/file/d/1jU4RdPvnw4WzlESjRO1rIPx7ohfOM5YY/view?usp=sharing)
+- Make a new database and import [telegram.sql](https://drive.google.com/file/d/1jU4RdPvnw4WzlESjRO1rIPx7ohfOM5YY/view?usp=sharing)
 - <a href="#setup-env-example">Setup .env</a>
 - Starting application
 ```
@@ -125,7 +125,7 @@ Contributions are what make the open source community such an amazing place to b
 ## Related Project
 :rocket: [`Backend Telegram`](https://github.com/hanifudin0597/telegram-api)
 
-:rocket: [`Frontend Telegram`](https://github.com/hanifudin0597/hirejob-client)
+:rocket: [`Frontend Telegram`](https://github.com/hanifudin0597/telegram-client)
 
 :rocket: [`Demo Telegram`](https://telegram-pijar.netlify.app/)
 
