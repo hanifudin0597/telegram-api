@@ -107,7 +107,7 @@ JWT_SECRET=
 
 You can view my Postman collection [here](https://www.postman.com/hanif0597/workspace/telegram/collection/19742227-bfdde561-4263-4e6e-a85a-625021e326e0?ctx=documentation)
 </br>
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/19742227-bfdde561-4263-4e6e-a85a-625021e326e0?action=collection%2Ffork&collection-url=entityId%3D19742227-bfdde561-4263-4e6e-a85a-625021e326e0%26entityType%3Dcollection%26workspaceId%3Dd8b5dfee-88db-4336-a18f-06a26f575dab)ss
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/19742227-bfdde561-4263-4e6e-a85a-625021e326e0?action=collection%2Ffork&collection-url=entityId%3D19742227-bfdde561-4263-4e6e-a85a-625021e326e0%26entityType%3Dcollection%26workspaceId%3Dd8b5dfee-88db-4336-a18f-06a26f575dab)
 
 <!-- CONTRIBUTING -->
 ## Contributing
